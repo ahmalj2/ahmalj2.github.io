@@ -34,7 +34,7 @@ padding: 20px 0;
 
 header nav ul{
 
-  display:block;
+  float: left;
 margin:0 auto;
 width: fit-content;
 
