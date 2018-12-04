@@ -55,8 +55,7 @@ padding: 0 16px;
 header nav ul li a{
   font-family: Catamaran;
   font-size: 16px;
-  color: #111;
-background-color: red;
+  color: red;
 }
 
 header .header-cases{
