@@ -34,11 +34,15 @@ padding: 20px 0;
 
 header nav ul{
 
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
   float: left;
-margin:0 auto;
-width: fit-content;
-background-color: inherit;
-
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 
 
 
