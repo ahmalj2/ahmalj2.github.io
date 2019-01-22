@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form>
+      <p>Pick a color</p>
+      <input type="color" id="mycolor" value="#008080">
+    </form>
+
+ <script>
+
+      myStorage = window.localStorage;
+      body = document.getElementsByTagName('body')[0];
+
+        document.getElementById("mycolor").addEventListener("change", function(){
+        var z = document.getElementById("mycolor").value;
+        console.log(z);
+
+        myStorage.setItem("färg", z);
+        document.body.style.backgroundColor = z;
+      });
+
+      var color = myStorage.getItem('färg');
+      body.style.backgroundColor=color;
+
+      $(document).ready(function(){
+
+        $("#knapp").click(function(){
+
+          console.log("du har klickat på div");
+        });
+
+
+
+      });
+
+
+
+
+    </script>
+
+  </body>
+</html>
