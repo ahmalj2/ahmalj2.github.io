@@ -3,7 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style media="screen">
+      form{
+        display: none;
+      }
+    </style>
   </head>
+
   <body>
 
     <form>
@@ -13,6 +20,7 @@
 
  <script>
 
+      $("form").show();
       myStorage = window.localStorage;
       body = document.getElementsByTagName('body')[0];
 
